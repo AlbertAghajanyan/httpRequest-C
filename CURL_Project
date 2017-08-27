@@ -1,0 +1,8 @@
+-------------------------------
+insert images -> curl -X POST 'http://localhost:4300/insertImage?folderName=folder2' -i -F images=@/home/vrezh/Pictures/p3.png -F images=@/home/vrezh/Pictures/p2.png
+---------------------------------
+insert object(create folder return name) -> curl -X POST http://localhost:4300/insert --data '{"type":"car", "cameraName":"camera 1", "firstDetectedDate":"2017-01-01 12:03:00"}' -H "Content-type: application/json"
+----------------------------------
+
+
+
